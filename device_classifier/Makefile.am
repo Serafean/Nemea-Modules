@@ -1,6 +1,6 @@
 include ../aminclude.am
 
-bin_PROGRAMS=device_classifier
+libexec_PROGRAMS=device_classifier
 SUBDIRS=libsvm
 
 device_classifier_CFLAGS=-std=gnu99 -O3

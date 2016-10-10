@@ -1,6 +1,6 @@
 include ../aminclude.am
 
-bin_PROGRAMS=anonymizer
+libexec_PROGRAMS=anonymizer
 anonymizer_SOURCES=anonymizer.c \
                    anonymizer.h \
                    fields.c \

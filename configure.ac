@@ -30,6 +30,7 @@ AM_CONDITIONAL(DEBUG, test x"$debug" = x"true")
 LT_INIT()
 
 pkgdatadir=${datadir}/nemea
+libexecdir=${libexecdir}/nemea
 PKGDATADIR=$(eval echo $(eval echo ${pkgdatadir}))
 AC_SUBST(PKGDATADIR)
 AC_SUBST(pkgdatadir)

@@ -1,7 +1,7 @@
 FLEX = flex
 BISON = bison
 include ../aminclude.am
-bin_PROGRAMS=unirecfilter
+libexec_PROGRAMS=unirecfilter
 unirecfilter_SOURCES=unirecfilter.c \
                      unirecfilter.h \
                      parser.tab.c \

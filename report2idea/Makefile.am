@@ -1,4 +1,4 @@
-bin_SCRIPTS=hoststats2idea.py \
+libexec_SCRIPTS=hoststats2idea.py \
 			idea2idea.py \
 			ipblacklist2idea.py \
 			vportscan2idea.py \
